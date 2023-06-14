@@ -5,5 +5,5 @@ files=(
 )
 
 for file in "${files[@]}"; do
-    cp $f /etc/nixos/$file
+    cp $file /etc/nixos/$file
 done
