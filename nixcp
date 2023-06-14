@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+files=(
+    "configuration.nix"
+)
+
+for file in "${files[@]}"; do
+    cp $f /etc/nixos/$file
+done
